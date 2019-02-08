@@ -27,6 +27,10 @@ public class Unit
     public void setName(String _name){
         this.name = _name;
     }
+    
+    public void introduceName(){
+     System.out.println(name);   
+    }
 
     /**
      * An example of a method - replace this comment with your own

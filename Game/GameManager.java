@@ -21,4 +21,12 @@ public class GameManager
         units.add(_unit);
     }
     
+    public void introduceUnits(){
+        
+        for (int i = 0; i < units.size(); i++){
+            units.get(i).introduceName();
+        }
+        
+    }
+    
 }

@@ -20,6 +20,12 @@ public class Unit
     {
         // initialise instance variables
         name = "";
+        maxHp = 10;
+        hp = 10;
+    }
+    
+    public void setName(String _name){
+        this.name = _name;
     }
 
     /**
